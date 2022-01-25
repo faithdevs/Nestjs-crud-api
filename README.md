@@ -41,9 +41,20 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
-```
+# Swagger doc
+$ Run localhost:3000 on your browser
+
+![n2](https://user-images.githubusercontent.com/47572498/150942361-3e98ada4-db75-4f9f-a187-cda80b74340a.PNG)
+
+
+# Hint
+To easier generate more modules you can run 
+$ nest g resource <name-of-module>
+Example:nest g resource calls
+Then select ```rest api``` and have it installed a crud setup.
+
+![n1](https://user-images.githubusercontent.com/47572498/150941660-036b3d0f-c547-4a04-ac13-d5d82f2f0023.PNG)
+
 
 ## Test
 
@@ -58,16 +69,7 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
 ## Stay in touch
 
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
+- Author - [Faith Ugbeshe](ugbeshefaith@gmail.com)
 
-## License
-
-Nest is [MIT licensed](LICENSE).
